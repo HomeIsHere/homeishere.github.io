@@ -9,29 +9,30 @@
 <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
 <!-- CSS -->
-<link rel="stylesheet" href="/css/owl.carousel.css" />
+<link rel="stylesheet" href="/css/main.css" />
+<!-- <link rel="stylesheet" href="/css/owl.carousel.css" />
 <link rel="stylesheet" href="/css/bootstrap.min.css" />
-<link rel="stylesheet" href="/css/font-awesome.min.css" />
-<link rel="stylesheet" href="/css/airspace.css" />
-<link rel="stylesheet" href="/css/style.css" />
+<link rel="stylesheet" href="/css/font-awesome.min.css" /> -->
+<!-- <link rel="stylesheet" href="/css/airspace.css" />
+<link rel="stylesheet" href="/css/style.css" /> -->
 <link rel="stylesheet" href="/css/ionicons.min.css" />
-<link rel="stylesheet" href="/css/animate.css" />
+<!-- <link rel="stylesheet" href="/css/animate.css" />
 <link rel="stylesheet" href="/css/responsive.css" />
-<link rel="stylesheet" href="/css/syntax.css" />
+<link rel="stylesheet" href="/css/syntax.css" /> -->
 
 <!-- Js -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-<script src="/js/bootstrap.min.js"></script>
-<script src="/js/owl.carousel.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<!-- <script src="/js/bootstrap.min.js"></script> -->
+<!-- <script src="/js/owl.carousel.min.js"></script> -->
 <script src="/js/plugins.js"></script>
 <script src="/js/min/waypoints.min.js"></script>
 <script src="/js/jquery.counterup.js"></script>
 
 <script src="/js/main.js"></script>
-
-<!-- Font awesome -->
-<!-- <script src="https://kit.fontawesome.com/a07cc38ff5.js"></script> -->
 
 <!--
 /*
@@ -48,43 +49,53 @@
   <body>
     <!-- Header Start -->
 <header>
-<div class="container">
-  <div class="row">
-    <div class="col-md-12">
-      <!-- header Nav Start -->
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/en/">
-              <img src="/img/logo.svg" alt="Logo" width="100">
-            </a>
-          </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav navbar-right">
-                <!-- <li><a href="/">Home</a></li> -->
-                <li><a href="/en/fthbi">FTHBI</a></li>
-                <li><a href="/en/resources">Resources</a></li>
-                <li><a href="/en/about">About</a></li>
-                <!-- <li><a href="/work">Work</a></li>
-                <li><a href="/blog">Blog</a></li>
-                <li><a href="#">Service</a></li> -->
-                <li><a href="#contact-form">Contact</a></li>
-                <li><a href="/kr/fthbi/">한글</a></li>
-              </ul>
-            </div><!-- /.navbar-collapse -->
-          </div><!-- /.container-fluid -->
-        </nav>
-      </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- header Nav Start -->
+                <nav class="navbar navbar-expand-lg navbar-default">
+                        <a class="navbar-brand" href="/en/">
+                            <img src="/img/logo.svg" alt="Logo" width="100">
+                        </a>
+                        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#headerNav" aria-controls="navbar-custom" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="headerNav">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="/en/fthbi">FTHBI</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="/en/resources" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Resources
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Home Buyer Checklist</a>
+                                        <a class="dropdown-item" href="#">Home Buyer FAQ</a>
+                                        <a class="dropdown-item" href="#">Government Incentives</a>
+                                        <a class="dropdown-item" href="#">Analysis and Opinion</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="/en/about">About</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="#contact-form">Contact</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="/kr/fthbi/">한글</a>
+                                </li>
+                            </ul>
+                        </div>
+                    <!-- search form -->
+                    <!-- <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form> -->
+                </nav>
+            </div>
+        </div>
     </div>
-  </div>
 </header><!-- header close -->
 
     <!-- Slider Start -->
@@ -113,33 +124,37 @@
 
 <p>The First-time Home Buyers Incentive is a government program that provides an interest-free loan of five percent of the purchase price of an existing home and up to ten percent for a new home, including pre-construction. The loan works like an equity where the government shares some ownership of homes purchased through the program. So if you get ten percent of your home price covered by FTHBI, you would own ninety percent of it while the government owns the remaining ten percent. This is perfect for end users (those who buy a home to live in it) who can take out a smaller mortgage and keep their monthly payments lower.</p>
 
-<h3 id="example-repayment-amounts-to-the-government-based-on-appreciationdepreciation">Example Repayment Amounts to the Government based on Appreciation/Depreciation</h3>
-
 <table>
-  <tbody>
-    <tr>
-      <td> </td>
-      <td> </td>
-      <td>If the home price increases by $100k</td>
-      <td>If the home price decreases by $100k</td>
-    </tr>
-    <tr>
-      <td>Home Price</td>
-      <td>$500,000</td>
-      <td>$600,000</td>
-      <td>$400,000</td>
-    </tr>
-  </tbody>
+    <caption>Example repayment amounts to the Government based on appreciation/depreciation.</caption>
+    <thead>
+        <tr>
+            <th scope="col"></th>
+            <th scope="col">Amount at Purchase</th>
+            <th scope="col">After $100k Increase</th>
+            <th scope="col">After $100k Decrease</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">Home Price</th>
+            <th scope="row">$500,000</th>
+            <td>$600,000</td>
+            <td>$400,000</td>
+        </tr>
+        <tr>
+            <th scope="row">FTHBI</th>
+            <th scope="row">$25,000</th>
+            <td>$30,000</td>
+            <td>$20,000</td>
+        </tr>
+        <tr>
+            <th scope="row">You</th>
+            <th scope="row">$475,000</th>
+            <td>$570,000</td>
+            <td>$380,000</td>
+        </tr>
+    </tbody>
 </table>
-
-<p>FTHBI
-$25,000
-$30,000
-$20,000
-Your Money
-$475,000
-$570,000
-$380,000</p>
 
 <p>The loan must be paid back if the home gets sold or in 25 years, and it can be paid back any time. Because it’s an equity loan, the government shares the ups and downs of the home price.
 House value is one thing, but another important thing to note is how much impact this is going to have on making mortgage payments, which cuts into other consumer spending such as food, transportation and entertainment.</p>
@@ -177,53 +192,103 @@ If you want to find out if you’re qualified for FTHBI and get started on a hom
 This information was last updated on August 14, 2019. Bookmark this page and sign up for our mailing list to get the latest news on First-time Home Buyer Incentive and other important real estate developments.</p>
 
 <h2 id="fthbi-faq">FTHBI FAQ</h2>
-<div class="acc-kontainer">
+<ol class="alt">
 
-</div>
 
-<h3 id="who-qualifies-for-fthbi">Who qualifies for FTHBI?</h3>
-
-<p>In order for you to be qualified for FTHBI, you must satisfy all of the following:</p>
-
-<ol>
-  <li>You must be a Canadian citizen, permanent resident, or a non-permanent resident who is legally authorized to work in Canada</li>
-  <li>You have never purchased a home (either as an investment or to live in it)</li>
-  <li>If you have purchased a home to live in it, it was 4 years ago</li>
-  <li>You have recently gone through a breakdown of a marriage or common-law partnership. In this case, you are still eligible even if you don’t meet other requirements</li>
-</ol>
-
+    <li>
+        <h3><a data-toggle="collapse" href="#question01" role="button" aria-expanded="false" aria-controls="question question01">
+            Who qualifies for FTHBI?</a></h3>
+        <div id="question01" class="collapse">
+        <p>In order for you to be qualified for FTHBI, you must satisfy all of the following:</p>
+<ul>
+    <li>You must be a Canadian citizen, permanent resident, or a non-permanent resident who is legally authorized to work in Canada.</li>
+    <li>You have never purchased a home (either as an investment or to live in it).</li>
+    <li>If you have purchased a home to live in it, it was 4 years ago.</li>
+    <li>You have recently gone through a breakdown of a marriage or common-law partnership. In this case, you are still eligible even if you don’t meet other requirements.</li>
+</ul>
 <p>Another very important point is that you cannot use FTHBI to buy an investment property. That means, once the home is ready to be occupied, it is you and your spouse who move in to live in it.</p>
 
-<h3 id="how-do-i-calculate-the-maximum-price-i-can-get-with-fthbi">How do I calculate the maximum price I can get with FTHBI?</h3>
+        </div>
+    </li>
 
-<p>The home you can afford is largely dependent on two factors: you and your spouse’s combined income and down payment size. Your mortgage + incentive is 4 times the combined income. This amount covers between 85.01% to 90.01% of the home price depending on whether you’re buying an existing home or a new home. This means that you’re responsible for either 14.99% (existing home) or 9.99% (new home) remaining down payment.</p>
-
+    <li>
+        <h3><a data-toggle="collapse" href="#question02" role="button" aria-expanded="false" aria-controls="question question02">
+            How do I calculate the maximum price I can afford with FTHBI?</a></h3>
+        <div id="question02" class="collapse">
+        <p>The home you can afford is largely dependent on two factors: you and your spouse’s combined income and down payment size. Your mortgage + incentive is 4 times the combined income. This amount covers between 85.01% to 90.01% of the home price depending on whether you’re buying an existing home or a new home. This means that you’re responsible for either 14.99% (existing home) or 9.99% (new home) remaining down payment.</p>
 <p>So here are two quick formulas you can use to calculate the maximum price you can afford:</p>
+<ul>
+    <li>
+        <strong>Existing Home</strong>
+        <div>formula here</div>
+    </li>
+    <li>
+        <strong>New Development</strong>
+        <div>formula here</div>
+    </li>
+</ul>
+<p>
+</p>
 
-<h4 id="existing-home-add-the-formula-in-image">Existing home: <em>&lt;ADD THE FORMULA IN IMAGE&gt;</em></h4>
-<h4 id="new-home-add-the-formula-in-image">New home: <em>&lt;ADD THE FORMULA IN IMAGE&gt;</em></h4>
+        </div>
+    </li>
 
-<p>[TABLE]</p>
+    <li>
+        <h3><a data-toggle="collapse" href="#question03" role="button" aria-expanded="false" aria-controls="question question03">
+            How do I apply for FTHBI?</a></h3>
+        <div id="question03" class="collapse">
+        <p>Once you check your eligibility and find the place to call home, you submit your mortgage application to the lender. The lender will work with mortgage insurers and the solicitor to get an approval for the FTHBI application and take care of other details.</p>
+<p>The <i>HomeIsHere</i> team can guide you through this process. Contact us using the form below.</p>
 
-<h3 id="how-do-i-apply-for-fthbi">How do I apply for FTHBI?</h3>
-<p>Once you check your eligibility and find the place to call home, you submit your mortgage application to the lender. The lender will work with mortgage insurers and the solicitor to get an approval for the FTHBI application and take care of other details.</p>
+        </div>
+    </li>
 
-<p>The <em>&lt;NAME&gt;</em> team can guide you through this process. Contact us using the form below.</p>
+    <li>
+        <h3><a data-toggle="collapse" href="#question04" role="button" aria-expanded="false" aria-controls="question question04">
+            What are the terms of repayment?</a></h3>
+        <div id="question04" class="collapse">
+        <p>The incentive you get must be paid back when you sell your home or after 25 years, whichever is earliest. The repayment amount depends on the market value of the home. Also, you must repay the full amount in one transfer (no instalments).</p>
 
-<h3 id="what-are-the-terms-of-the-repayment">What are the terms of the repayment?</h3>
-<p>The incentive you get must be paid back when you sell your home or after 25 years, whichever is earliest. The repayment amount depends on the market value of the home. Also, you must repay the full amount in one transfer (no instalments).</p>
+        </div>
+    </li>
 
-<h3 id="what-is-considered-a-new-home-to-be-eligible-for-the-10-incentive">What is considered a new home to be eligible for the 10% incentive?</h3>
-<p>Simply put, a new home is a home that no one has ever lived in. This includes those that recently got completed and pre-construction projects that have a longer time horizon.</p>
+    <li>
+        <h3><a data-toggle="collapse" href="#question05" role="button" aria-expanded="false" aria-controls="question question05">
+            What is considered a new home to be eligible for the 10% incentive?</a></h3>
+        <div id="question05" class="collapse">
+        <p>Simply put, a new home is a home that no one has ever lived in. This includes those that recently got completed and pre-construction projects that have a longer time horizon.</p>
 
-<h3 id="can-i-stack-this-on-top-of-other-regional-incentives">Can I stack this on top of other regional incentives?</h3>
-<p>Unfortunately, you cannot combine FTHBI with other similar interest-free incentives. The NAME team can help you determine which incentive is best for you based on your target home and situation.</p>
+        </div>
+    </li>
 
-<h3 id="can-i-rent-out-rooms-in-the-home-i-buy-with-the-incentive">Can I rent out rooms in the home I buy with the incentive?</h3>
-<p>Yes, but the rental income gets included in the qualifying income, which cannot be more than $120,000. Also, you must occupy one of the units.</p>
+    <li>
+        <h3><a data-toggle="collapse" href="#question06" role="button" aria-expanded="false" aria-controls="question question06">
+            Can I stack this on top of other regional incentives?</a></h3>
+        <div id="question06" class="collapse">
+        <p>Unfortunately, you cannot combine FTHBI with other similar interest-free incentives. The NAME team can help you determine which incentive is best for you based on your target home and situation.</p>
 
-<h3 id="how-do-i-figure-out-what-my-qualifying-income-is">How do I figure out what my qualifying income is?</h3>
-<p>What gets included in your qualifying income may differ bank by bank. Contact your bank to find out what they include in your qualifying income.</p>
+        </div>
+    </li>
+
+    <li>
+        <h3><a data-toggle="collapse" href="#question07" role="button" aria-expanded="false" aria-controls="question question07">
+            Can I rent out rooms in the home I buy with the incentive?</a></h3>
+        <div id="question07" class="collapse">
+        <p>Yes, but the rental income gets included in the qualifying income, which cannot be more than $120,000. Also, you must occupy one of the units.</p>
+
+        </div>
+    </li>
+
+    <li>
+        <h3><a data-toggle="collapse" href="#question08" role="button" aria-expanded="false" aria-controls="question question08">
+            How do I figure out what my qualifying income is?</a></h3>
+        <div id="question08" class="collapse">
+        <p>What gets included in your qualifying income may differ bank by bank. Contact your bank to find out what they include in your qualifying income.</p>
+
+        </div>
+    </li>
+
+</ol>
 </p>
           </div>
         </div><!-- .col-md-7 close -->
