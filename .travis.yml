@@ -10,11 +10,11 @@ deploy:
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
   keep-history: true
-  # on:
-  #   # only run CI-builds on master branch
-  #   branches:
-  #     only:
-  #       - master
+  on:
+    # only run CI-builds on master branch
+    branches:
+      only:
+        - release
 # rvm:
 # - 2.5.0
 # # set execution permission on our build script
