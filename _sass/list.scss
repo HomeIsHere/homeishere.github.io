@@ -1,0 +1,29 @@
+ul {
+    list-style: square;
+}
+ul,ol {
+    padding: 0;
+    color: #7B7B7B;
+    margin: 25px 0px 20px 0px;
+    li {
+        margin: 5px 5px 0px 5px;
+    }
+    &.alt{
+        > h3 {
+            margin-top: 12px
+        }
+        > li {
+            border-top: 1px solid gray;
+            a:link {
+                color: #333333;
+            }
+            a:hover {
+                color: #007bff;
+            }
+        }
+        > li:first-child { border-top: none; }
+    }
+    &.nobullet{
+        list-style: none;
+    }
+}

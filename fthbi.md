@@ -10,21 +10,37 @@ To help first-time home buyers in Canada achieve their goal of owning a home, th
 
 The First-time Home Buyers Incentive is a government program that provides an interest-free loan of five percent of the purchase price of an existing home and up to ten percent for a new home, including pre-construction. The loan works like an equity where the government shares some ownership of homes purchased through the program. So if you get ten percent of your home price covered by FTHBI, you would own ninety percent of it while the government owns the remaining ten percent. This is perfect for end users (those who buy a home to live in it) who can take out a smaller mortgage and keep their monthly payments lower.
 
-### Example Repayment Amounts to the Government based on Appreciation/Depreciation
-
-
-|---|---|---|---|
-| | |If the home price increases by $100k|If the home price decreases by $100k|
-|Home Price|$500,000|$600,000|$400,000|
-
-FTHBI
-$25,000
-$30,000
-$20,000
-Your Money
-$475,000
-$570,000
-$380,000
+<table>
+    <caption>Example repayment amounts to the Government based on appreciation/depreciation.</caption>
+    <thead>
+        <tr>
+            <th scope="col"></th>
+            <th scope="col">Amount at Purchase</th>
+            <th scope="col">After $100k Increase</th>
+            <th scope="col">After $100k Decrease</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">Home Price</th>
+            <th scope="row">$500,000</th>
+            <td>$600,000</td>
+            <td>$400,000</td>
+        </tr>
+        <tr>
+            <th scope="row">FTHBI</th>
+            <th scope="row">$25,000</th>
+            <td>$30,000</td>
+            <td>$20,000</td>
+        </tr>
+        <tr>
+            <th scope="row">You</th>
+            <th scope="row">$475,000</th>
+            <td>$570,000</td>
+            <td>$380,000</td>
+        </tr>
+    </tbody>
+</table>
 
 The loan must be paid back if the home gets sold or in 25 years, and it can be paid back any time. Because it’s an equity loan, the government shares the ups and downs of the home price.
 House value is one thing, but another important thing to note is how much impact this is going to have on making mortgage payments, which cuts into other consumer spending such as food, transportation and entertainment.
@@ -58,56 +74,15 @@ If you want to find out if you’re qualified for FTHBI and get started on a hom
 This information was last updated on August 14, 2019. Bookmark this page and sign up for our mailing list to get the latest news on First-time Home Buyer Incentive and other important real estate developments.
 
 ## FTHBI FAQ
-<div class="acc-kontainer">
-{% for q in site.faqs reversed %}
-    <div>
-        <input type="radio" name="acc" id="{{ q.qid }}">
-        <label for="{{ q.qid }}">{{ q.question }}</label>
-        <div class="acc-body">
+<ol class="alt">
+{% assign faqs = site.faqs | where:'language', 'en' %}
+{% for q in faqs %}
+    <li>
+        <h3><a data-toggle="collapse" href="#{{ q.qid }}" role="button" aria-expanded="false" aria-controls="question {{ q.qid }}">
+            {{ q.question }}</a></h3>
+        <div id="{{ q.qid }}" class="collapse">
         {{ q.content }}
         </div>
-    </div>
+    </li>
 {% endfor %}
-</div>
-
-### Who qualifies for FTHBI?
-
-In order for you to be qualified for FTHBI, you must satisfy all of the following:
-
-1. You must be a Canadian citizen, permanent resident, or a non-permanent resident who is legally authorized to work in Canada
-2. You have never purchased a home (either as an investment or to live in it)
-3. If you have purchased a home to live in it, it was 4 years ago
-4. You have recently gone through a breakdown of a marriage or common-law partnership. In this case, you are still eligible even if you don’t meet other requirements
-
-Another very important point is that you cannot use FTHBI to buy an investment property. That means, once the home is ready to be occupied, it is you and your spouse who move in to live in it.
-
-### How do I calculate the maximum price I can get with FTHBI?
-
-The home you can afford is largely dependent on two factors: you and your spouse’s combined income and down payment size. Your mortgage + incentive is 4 times the combined income. This amount covers between 85.01% to 90.01% of the home price depending on whether you’re buying an existing home or a new home. This means that you’re responsible for either 14.99% (existing home) or 9.99% (new home) remaining down payment.
-
-So here are two quick formulas you can use to calculate the maximum price you can afford:
-
-#### Existing home: _\<ADD THE FORMULA IN IMAGE\>_
-#### New home: _\<ADD THE FORMULA IN IMAGE\>_
-
-[TABLE]
-
-### How do I apply for FTHBI?
-Once you check your eligibility and find the place to call home, you submit your mortgage application to the lender. The lender will work with mortgage insurers and the solicitor to get an approval for the FTHBI application and take care of other details.
-
-The _\<NAME\>_ team can guide you through this process. Contact us using the form below.
-
-### What are the terms of the repayment?
-The incentive you get must be paid back when you sell your home or after 25 years, whichever is earliest. The repayment amount depends on the market value of the home. Also, you must repay the full amount in one transfer (no instalments).
-
-### What is considered a new home to be eligible for the 10% incentive?
-Simply put, a new home is a home that no one has ever lived in. This includes those that recently got completed and pre-construction projects that have a longer time horizon.
-
-### Can I stack this on top of other regional incentives?
-Unfortunately, you cannot combine FTHBI with other similar interest-free incentives. The NAME team can help you determine which incentive is best for you based on your target home and situation.
-
-### Can I rent out rooms in the home I buy with the incentive?
-Yes, but the rental income gets included in the qualifying income, which cannot be more than $120,000. Also, you must occupy one of the units.
-
-### How do I figure out what my qualifying income is?
-What gets included in your qualifying income may differ bank by bank. Contact your bank to find out what they include in your qualifying income.
+</ol>
