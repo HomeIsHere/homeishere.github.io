@@ -6,15 +6,15 @@ deploy:
   local-dir: ./site
   target-branch: master
   email: michael.jongho.moon@gmail.com
-  name: Deployment Bot
+  name: TravisCI
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
   keep-history: true
-  on:
-    # only run CI-builds on master branch
-    branches:
-      only:
-        - master
+  # on:
+  #   # only run CI-builds on master branch
+  #   branches:
+  #     only:
+  #       - master
 # rvm:
 # - 2.5.0
 # # set execution permission on our build script
