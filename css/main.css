@@ -29,7 +29,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  margin-top: 50px; }
 
 h2 {
   font-size: 30px;
@@ -3628,13 +3629,12 @@ ul {
   list-style: square; }
 
 ul, ol {
+  list-style-position: inside;
   padding: 0;
   color: #7B7B7B;
   margin: 25px 0px 20px 0px; }
   ul li, ol li {
     margin: 5px 5px 0px 5px; }
-  ul.alt > h3, ol.alt > h3 {
-    margin-top: 12px; }
   ul.alt > li, ol.alt > li {
     border-top: 1px solid gray; }
     ul.alt > li a:link, ol.alt > li a:link {
