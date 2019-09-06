@@ -78,8 +78,8 @@ This information was last updated on August 14, 2019. Bookmark this page and sig
 {% assign faqs = site.faqs | where:'language', 'en' %}
 {% for q in faqs %}
     <li>
-        <h3><a data-toggle="collapse" href="#{{ q.qid }}" role="button" aria-expanded="false" aria-controls="question {{ q.qid }}">
-            {{ q.question }}</a></h3>
+        <div><a data-toggle="collapse" href="#{{ q.qid }}" role="button" aria-expanded="false" aria-controls="question {{ q.qid }}">
+            {{ q.question }}</a></div>
         <div id="{{ q.qid }}" class="collapse">
         {{ q.content }}
         </div>
