@@ -6,16 +6,11 @@ contact-tag: "We can help you find your place to call home."
 ---
 # About Us
 
-In RBC Economic Research published on April 25, 2019, [the population aged 20-34 increased by 96,000 in the three largest cities in Canada: Toronto, Vancouver, and Montreal](http://www.rbc.com/economics/economic-reports/pdf/canadian-housing/housing-millennials-apr2019.pdf). Despite millennials being hit hardest with the worsening affordability crisis, the cities mentioned continue to attract young talents with ample economic opportunities, rich cultural scenes, and a high living standard. According to the Royal LePage Peak Millennial Survey released in August, 2017, the number of peak millennials, people aged 25 to 30, is set to [grow by 17 percent in 2021 compared to 2016](https://www.newswire.ca/news-releases/largest-cohort-of-millennials-changing-canadian-real-estate-despite-constraints-of-affordability-and-mortgage-regulation-640869803.html). This large cohort will have a far reach and play a vital role in shaping the Canadian real estate market for the next decade. Whether they’re young professionals moving out from their parents’ home, couples looking to start their lives together, just-turned parents upsizing to accommodate their baby, young people will be looking for different types of housing than their parents have.
+We provide end-to-end services in your home buying journey by first understanding your goal and situation, analyzing market conditions, narrowing down neighbourhoods and desired homes, and guiding you through the complicated admin process and finding various government incentives that you’re eligible for.
 
-Home is Here was started when its founders came together to wonder how we can make millennials’ home buying journey easy, informative and transparent. Canadian housing market has enjoyed an incredible price increase in the past 5 years, rising from [slightly over $400k to $600k in the MLS HPI Aggregate Composite Benchmark](https://creastats.crea.ca/natl/index.html). Given the return that our housing market has given to homeowners, it’s naturally viewed as an investment vehicle, rather than being a place to live in. So when millennials enter the market looking for their first home, they’re given information that doesn’t answer the question, is this the right home for me?
+Everyone on our team has gone through step one of buying a home – talking to various real estate agents. This is the stage where all realtors claim that they can get the best condo units at the VVIP stage, how they have exclusive perks promised by the builder, and how every home in their inventory is a must-buy, high-prospect property for both end users and investors. We encourage you to compare our insights and approach with what you’ll commonly hear from other agents.
 
-We the millennial buyers seek information and ask questions that are data-driven and personalized. In a world where there’s no shortage of new information, the key today is cutting through the noise to identify insights that matter. We saw that the market wasn’t providing this to us, so we decided that we would fill in the gap.
-
-Start first by looking at our [summary and recommendations on First-time Home Buyer Incentive](/en/fthbi/), a new incentive by the federal government to help first-time home buyers. Then, compare our [home-buying checklist](en/checklist) with information that you’ve found online. By now, you should know if our approach and understanding of the market best fit your home buying journey.
-
-Wherever you are in the home buying journey, let us know – we’re confident that we have the data and expertise that you are looking for in this exciting journey.
-
+We’ll tell you what the data tells us, what we find out after talking to government officials, 3rd-party analysis from major agencies in Canada, and what our conclusions say after going through rigorous analyses.
 
 # Meet the Team {#meet-the-team}
 
