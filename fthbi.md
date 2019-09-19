@@ -4,7 +4,8 @@ title: FTHBI
 permalink: /en/fthbi/
 contact-tag: "We can help you get the best out of FTHBI."
 ---
-# What is First-time Home Buyers Incentive?
+
+## What is First-time Home Buyers Incentive?
 
 To help first-time home buyers in Canada achieve their goal of owning a home, the federal government has introduced First-time Home Buyers Incentive (FTHBI). FTHBI acknowledges the affordability issue faced by many young Canadians and demonstrates the government’s commitment to making housing affordable to those looking to buy their first home.
 
@@ -78,8 +79,8 @@ This information was last updated on August 14, 2019. Bookmark this page and sig
 {% assign faqs = site.faqs | where:'language', 'en' %}
 {% for q in faqs %}
     <li>
-        <div><a data-toggle="collapse" href="#{{ q.qid }}" role="button" aria-expanded="false" aria-controls="question {{ q.qid }}">
-            {{ q.question }}</a></div>
+        <a data-toggle="collapse" href="#{{ q.qid }}" role="button" aria-expanded="false" aria-controls="question {{ q.qid }}">
+            {{ q.question }}</a>
         <div id="{{ q.qid }}" class="collapse">
         {{ q.content }}
         </div>

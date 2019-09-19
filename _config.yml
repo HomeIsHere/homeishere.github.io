@@ -11,7 +11,7 @@ keep_files:
   - ".gitignore"
 
 # Site settings
-title: HomeIsHere  # your site title
+title: Home Is Here  # your site title
 subtitle: A Personal Guide to Your First Home  # your site subtitle
 url: "http:/www.homeishere.ca" # the base hostname & protocol for your site
 baseurl: ""
@@ -36,10 +36,19 @@ collections:
     #     output: true
     faqs:
         ouput: false
+    checklists:
+        permalink: /en/checklist/:categories/:slug
+        output: true
+    checklistskr:
+        permalink: /kr/checklist/:categories/:slug
+        output: true
 
-# Category descriptions (for archive pages)
-descriptions:
-  - cat: jekyll
-    desc: "Posts describing Jekyll setup techniques."
-  - cat: dummy
-    desc: "Just some placeholder posts, lorem ipsum and the rest."
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 2
+  permalink: '/page/:num/'
+  title: ' - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
