@@ -142,6 +142,28 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
 	wrapper Start
 --*/
+#main {
+  padding: 10px 0; }
+
+#main .block h2 {
+  padding-top: 35px;
+  line-height: 27px;
+  margin: 0; }
+
+#main .block p {
+  color: #7B7B7B;
+  padding-top: 20px; }
+
+#main .block img {
+  padding-left: 40px;
+  width: 100%; }
+
+#main .section-title {
+  margin-bottom: 0px; }
+
+#main .section-title p {
+  padding-top: 20px; }
+
 #intro {
   padding: 100px 0; }
 
@@ -655,7 +677,6 @@ font header .navbar-default .navbar-nav li a:hover {
 	contact-form Start
 --*/
 #contact-form {
-  padding-top: 70px;
   padding-bottom: 35px; }
 
 #contact-form .block form .form-group {
@@ -3338,14 +3359,14 @@ px      68    160    252    344    436    */
   text-align: center; }
 
 .post-area {
-  padding: 40px;
+  padding: 15px 80px;
+  margin: 0px;
   width: 100%;
-  min-height: 150px;
   background-color: white;
   border-bottom: 1px dotted #ddd; }
 
 .post-area a:link, .post-area a:visited {
-  font-size: 30px;
+  font-size: 15px;
   color: #333; }
 
 .post-area a:hover {
@@ -3645,3 +3666,16 @@ ul, ol {
     border-top: none; }
   ul.nobullet, ol.nobullet {
     list-style: none; }
+
+#paginator {
+  margin-top: 30px;
+  font-size: 13px; }
+  #paginator .item {
+    padding: 10px 0; }
+  #paginator .title {
+    font-size: 16px; }
+  #paginator ul.pager {
+    list-style: none;
+    text-align: center; }
+    #paginator ul.pager li {
+      display: inline; }
