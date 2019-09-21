@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http:/www.homeishere.ca/en/checklist/02-mortgage</loc>
-<lastmod>2019-09-19T16:51:30+00:00</lastmod>
+<loc>http:/www.homeishere.ca/en/home-buyer-checklist/02-mortgage</loc>
+<lastmod>2019-09-21T16:09:29+00:00</lastmod>
 </url>
 <url>
-<loc>http:/www.homeishere.ca/en/checklist/04-commute</loc>
-<lastmod>2019-09-19T16:51:30+00:00</lastmod>
+<loc>http:/www.homeishere.ca/en/home-buyer-checklist/04-commute</loc>
+<lastmod>2019-09-21T16:09:29+00:00</lastmod>
 </url>
 <url>
-<loc>http:/www.homeishere.ca/kr/checklist/02-mortgage</loc>
-<lastmod>2019-09-19T16:51:30+00:00</lastmod>
+<loc>http:/www.homeishere.ca/kr/home-buyer-checklist/02-mortgage</loc>
+<lastmod>2019-09-21T16:09:29+00:00</lastmod>
 </url>
 <url>
-<loc>http:/www.homeishere.ca/kr/checklist/04-commute</loc>
-<lastmod>2019-09-19T16:51:30+00:00</lastmod>
+<loc>http:/www.homeishere.ca/kr/home-buyer-checklist/04-commute</loc>
+<lastmod>2019-09-21T16:09:29+00:00</lastmod>
 </url>
 <url>
 <loc>http:/www.homeishere.ca/2016/05/20/my-example-post.html</loc>
@@ -42,10 +42,10 @@
 <loc>http:/www.homeishere.ca/blog/</loc>
 </url>
 <url>
-<loc>http:/www.homeishere.ca/kr/fthbi/</loc>
+<loc>http:/www.homeishere.ca/kr/first-time-home-buyer-incentive/</loc>
 </url>
 <url>
-<loc>http:/www.homeishere.ca/en/fthbi/</loc>
+<loc>http:/www.homeishere.ca/en/first-time-home-buyer-incentive/</loc>
 </url>
 <url>
 <loc>http:/www.homeishere.ca/kr/</loc>
@@ -57,9 +57,9 @@
 <loc>http:/www.homeishere.ca/work/</loc>
 </url>
 <url>
-<loc>http:/www.homeishere.ca/kr/checklist/</loc>
+<loc>http:/www.homeishere.ca/kr/home-buyer-checklist/</loc>
 </url>
 <url>
-<loc>http:/www.homeishere.ca/en/checklist/</loc>
+<loc>http:/www.homeishere.ca/en/home-buyer-checklist/</loc>
 </url>
 </urlset>
