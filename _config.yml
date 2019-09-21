@@ -37,10 +37,10 @@ collections:
     faqs:
         ouput: false
     checklists:
-        permalink: /en/checklist/:categories/:slug
+        permalink: /en/home-buyer-checklist/:slug
         output: true
     checklistskr:
-        permalink: /kr/checklist/:categories/:slug
+        permalink: /kr/home-buyer-checklist/:slug
         output: true
 
 # Pagination Settings

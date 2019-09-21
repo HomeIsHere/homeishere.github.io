@@ -1,7 +1,7 @@
 ---
 layout: fthbi
 title: FTHBI
-permalink: /en/fthbi/
+permalink: /en/first-time-home-buyer-incentive/
 contact-tag: "We can help you get the best out of FTHBI."
 ---
 
