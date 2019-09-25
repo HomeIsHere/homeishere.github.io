@@ -140,7 +140,9 @@ font header .navbar-default .navbar-nav li a:hover {
 	wrapper Start
 --*/
 #main {
-  padding: 10px 0;
+  .container {
+      width: 50%;
+  }
 }
 #main .block h2 {
   padding-top: 35px;
