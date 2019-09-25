@@ -81,6 +81,7 @@ header .navbar-brand {
   padding-top: 5px; }
 
 header .navbar-default {
+  cursor: pointer;
   background: none;
   border: 0px; }
 
@@ -142,8 +143,8 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
 	wrapper Start
 --*/
-#main {
-  padding: 10px 0; }
+#main .container {
+  width: 70%; }
 
 #main .block h2 {
   padding-top: 35px;
@@ -672,43 +673,6 @@ font header .navbar-default .navbar-nav li a:hover {
   font-weight: 300;
   letter-spacing: 1px;
   word-spacing: 3px; }
-
-/*--
-	contact-form Start
---*/
-#contact-form {
-  padding-bottom: 35px; }
-
-#contact-form .block form .form-group {
-  padding-bottom: 15px;
-  margin: 0px; }
-
-#contact-form .block form .form-group .form-control {
-  background: #F6F8FA;
-  height: 60px;
-  border: 1px solid #EEF2F6;
-  box-shadow: none;
-  width: 100%; }
-
-#contact-form .block form .form-group-2 {
-  padding-bottom: 15px;
-  margin: 0px; }
-
-#contact-form .block form .form-group-2 textarea {
-  background: #F6F8FA;
-  height: 135px;
-  border: 1px solid #EEF2F6;
-  box-shadow: none;
-  width: 100%; }
-
-#contact-form .block button {
-  width: 100%;
-  height: 60px;
-  background: #47424C;
-  border: none;
-  color: #fff;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px; }
 
 /*--
 	wrapper-contact Start
@@ -3667,6 +3631,22 @@ ul, ol {
   ul.nobullet, ol.nobullet {
     list-style: none; }
 
+#breadcrumb .container {
+  width: 70%;
+  padding: 0; }
+#breadcrumb ul {
+  list-style: none;
+  margin: 30px 0 0 0;
+  float: right; }
+  #breadcrumb ul li {
+    padding-left: 0;
+    margin: 0;
+    display: inline; }
+    #breadcrumb ul li a {
+      color: #7B7B7B; }
+  #breadcrumb ul li:not(:first-child):before {
+    content: " > "; }
+
 #paginator {
   margin-top: 30px;
   font-size: 13px; }
@@ -3679,3 +3659,40 @@ ul, ol {
     text-align: center; }
     #paginator ul.pager li {
       display: inline; }
+
+/*--
+	contact-form Start
+--*/
+.contact {
+  padding-bottom: 35px; }
+
+.contact .block form .form-group {
+  padding-bottom: 15px;
+  margin: 0px; }
+
+.contact .block form .form-group .form-control {
+  background: #F6F8FA;
+  height: 60px;
+  border: 1px solid #EEF2F6;
+  box-shadow: none;
+  width: 100%; }
+
+.contact .block form .form-group-2 {
+  padding-bottom: 15px;
+  margin: 0px; }
+
+.contact .block form .form-group-2 textarea {
+  background: #F6F8FA;
+  height: 135px;
+  border: 1px solid #EEF2F6;
+  box-shadow: none;
+  width: 100%; }
+
+.contact .block button {
+  width: 100%;
+  height: 60px;
+  background: #47424C;
+  border: none;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px; }

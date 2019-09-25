@@ -10,21 +10,7 @@
 
 <!-- CSS -->
 <link rel="stylesheet" href="/css/main.css" />
-<link rel="stylesheet" href="/css/ionicons.min.css" />
-
-<!-- Js -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-<!-- <script src="/js/bootstrap.min.js"></script> -->
-<!-- <script src="/js/owl.carousel.min.js"></script> -->
-<script src="/js/plugins.js"></script>
-<script src="/js/min/waypoints.min.js"></script>
-<script src="/js/jquery.counterup.js"></script>
-
-<script src="/js/main.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css" />
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147415812-1"></script>
@@ -71,7 +57,7 @@
                                     <a class="nav-link" href="/kr/about">소개</a>
                                 </li>
                                 <li>
-                                    <a class="nav-link" href="#contact-form">상담문의</a>
+                                    <a class="nav-link" href="#contact-form">상담/문의</a>
                                 </li>
                                 <li><a class="nav-link" href="/en/">ENG</a></li>
                             </ul>
@@ -233,37 +219,37 @@
         
         <div class="block">
           
-          <ul class="counter-box clearfix">
+          <ul class="counter-box clearfix nobullet">
             <li>
               <div class="block">
-                <i class="ion-ios-chatboxes-outline"></i>
+                <i class="ion-md-chatboxes"></i>
                 <h4 class="counter">20000</h4>
                 <span>Cups of Coffee</span>
               </div>
             </li>
             
-          <ul class="counter-box clearfix">
+          <ul class="counter-box clearfix nobullet">
             <li>
               <div class="block">
-                <i class="ion-ios-glasses-outline"></i>
+                <i class="ion-md-glasses"></i>
                 <h4 class="counter">1500</h4>
                 <span>Gallons of Soft Drink</span>
               </div>
             </li>
             
-          <ul class="counter-box clearfix">
+          <ul class="counter-box clearfix nobullet">
             <li>
               <div class="block">
-                <i class="ion-ios-compose-outline"></i>
+                <i class="ion-md-clipboard"></i>
                 <h4 class="counter">1200</h4>
                 <span>Whiteboard Markers</span>
               </div>
             </li>
             
-          <ul class="counter-box clearfix">
+          <ul class="counter-box clearfix nobullet">
             <li>
               <div class="block">
-                <i class="ion-ios-timer-outline"></i>
+                <i class="ion-md-timer"></i>
                 <h4 class="counter">300</h4>
                 <span>Websites built</span>
               </div>
@@ -322,14 +308,13 @@
   </div>
 </section>
 
-
     <!-- contact form start -->
-<section id="contact-form">
+<section id="contact-form" class="contact">
   <div class="container">
     <div class="row">
       <div class="col-md-12 col-sm-12">
         <div class="block">
-          <h2>상담문의</h2>
+          <h2>상담/문의</h2>
           <p>우와와와앙</p>
         </div>
       </div>
@@ -337,13 +322,13 @@
         <div class="block">
           <form>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Your Name">
+              <input type="text" class="form-control" placeholder="이름">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Email Address">
+              <input type="text" class="form-control" placeholder="이메일">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Subject">
+              <input type="text" class="form-control" placeholder="제목">
             </div>
           </form>
         </div>
@@ -352,9 +337,41 @@
         <div class="block">
           <form>
             <div class="form-group-2">
-              <textarea class="form-control" rows="3" placeholder="Your Message"></textarea>
+              <textarea class="form-control" rows="3" placeholder="내용"></textarea>
             </div>
-            <button class="btn btn-default" type="submit">Send Message</button>
+            <button class="btn btn-default" type="submit">상담/문의 하기</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="subscribe" class="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>구독</h2>
+        <p>
+          아래에 이메일을 남겨주시면 최신 글 업데이트를 보내드립니다.
+        </p>
+      </div>
+      <div class="col-md-9 col-sm-12">
+        <div class="block">
+          <form>
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="이메일"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-12">
+        <div class="block">
+          <form>
+            <button class="btn btn-default" type="submit">구독</button>
           </form>
         </div>
       </div>
@@ -379,5 +396,15 @@
   </div>
 </footer>
 
-    </body>
+    <!-- Js -->
+<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+<script src="/js/main.js"></script>
+
+  </body>
 </html>

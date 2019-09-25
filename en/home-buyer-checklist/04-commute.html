@@ -10,21 +10,7 @@
 
 <!-- CSS -->
 <link rel="stylesheet" href="/css/main.css" />
-<link rel="stylesheet" href="/css/ionicons.min.css" />
-
-<!-- Js -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-<!-- <script src="/js/bootstrap.min.js"></script> -->
-<!-- <script src="/js/owl.carousel.min.js"></script> -->
-<script src="/js/plugins.js"></script>
-<script src="/js/min/waypoints.min.js"></script>
-<script src="/js/jquery.counterup.js"></script>
-
-<script src="/js/main.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css" />
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147415812-1"></script>
@@ -68,10 +54,10 @@
                                     </div>
                                 </li>
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="/en/about">About</a>
+                                    <a class="nav-link" href="/en/about">About Us</a>
                                 </li>
                                 <li>
-                                    <a class="nav-link" href="#contact-form">Contact</a>
+                                    <a class="nav-link" href="#contact-form">Contact Us</a>
                                 </li>
                                 <li>
                                     <a class="nav-link" href="/kr/home-buyer-checklist/04-commute">한글</a>
@@ -90,16 +76,40 @@
 </header><!-- header close -->
 
     <div class="post">
+    
+
+<section id="breadcrumb">
+    <div class="container">
+        <ul class="bread">
+            
+            
+            
+            <li><a href="/en/">Home</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="/en/home-buyer-checklist/">Home Buyer Checklist </a></li>
+            
+            
+            
+            
+            <li><a href="/en/home-buyer-checklist/04-commute/">Commute</a></li>
+            
+            
+        </ul>
+    </div>
+</section>
+
   <!-- Wrapper Start -->
-  <section id="main" style="border: 1px dotted #ddd;">
+  <section id="main">
     <div class="container">
       <div class="row">
         <div>
           <div class="block">
             <h1>Commute</h1>
-            <!-- <div class="post-info-wrapper">
-              <p class="italic">By <span class="bold"></span> on <span class="bold">September 21, 2019</span></p>
-            </div> -->
             <hr />
             <p><p>Most young professionals desire living close to where they work. This is quite understandable as no one wants to deal with morning and early evening rush hours. And when you’ve had a long day, taking an hour to commute back home is the last thing on your mind. Living close to work not only saves you the hassle of commuting, it also gives you time to do other more fun things – spending time with friends and family, going out for dinner, discovering a new hot spot in the city, or just taking a well-deserved rest at home.</p>
 
@@ -117,19 +127,17 @@
 
 <section id="paginator">
   <ul class="pager">
-      <li class="previous">
-        
-        <a class="btn btn-outline-dark disabled" href="" data-toggle="tooltip" data-placement="top" title=""><i class="fa fa-chevron-left"></i> Next</a>
-        
-      </li>
       <li class="next">
          
-         <a class="btn btn-outline-dark" href="/en/home-buyer-checklist/02-mortgage" data-toggle="tooltip" data-placement="top" title="Mortgage">Prev <i class="fa fa-chevron-right"></i></a>
+         <a href="/en/home-buyer-checklist/03-testpage" data-toggle="tooltip" data-placement="top" title="Test"><i class="fa fa-chevron-left"></i> Prev: Test</a>
          
      </li>
+      
+      <li class="previous">
+         
+       </li>
     </ul>
 </section>
-
 </p>
           </div>
         </div><!-- .col-md-7 close -->
@@ -137,13 +145,9 @@
     </div>
   </section>
 </div>
-<!-- <p class="center-text" style="padding: 30px;">
-  <a href="/blog">Back to blog</a>
-</p> -->
-
 
     <!-- contact form start -->
-<section id="contact-form">
+<section id="contact-form" class="contact">
   <div class="container">
     <div class="row">
       <div class="col-md-12 col-sm-12">
@@ -156,13 +160,17 @@
         <div class="block">
           <form>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Your Name">
+              <input type="text" class="form-control" placeholder="Your Name" />
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Email Address">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Email Address"
+              />
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Subject">
+              <input type="text" class="form-control" placeholder="Subject" />
             </div>
           </form>
         </div>
@@ -171,9 +179,46 @@
         <div class="block">
           <form>
             <div class="form-group-2">
-              <textarea class="form-control" rows="3" placeholder="Your Message"></textarea>
+              <textarea
+                class="form-control"
+                rows="3"
+                placeholder="Your Message"
+              ></textarea>
             </div>
             <button class="btn btn-default" type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="subscribe" class="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Subscribe</h2>
+        <p>
+          Receive updates and latest news direct from our team. Simply enter
+          your email below.
+        </p>
+      </div>
+      <div class="col-md-9 col-sm-12">
+        <div class="block">
+          <form>
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Email Address"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-12">
+        <div class="block">
+          <form>
+            <button class="btn btn-default" type="submit">Subscribe</button>
           </form>
         </div>
       </div>
@@ -188,7 +233,7 @@
       <div class="col-md-12">
         <div class="footer-manu">
           <ul>
-            <li><a href="/en/about">About</a></li>
+            <li><a href="/en/about">About us</a></li>
             <li><a href="/kr/home-buyer-checklist/04-commute">한글</a></li>
           </ul>
         </div>
@@ -197,6 +242,16 @@
     </div>
   </div>
 </footer>
+
+    <!-- Js -->
+<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+<script src="/js/main.js"></script>
 
     </body>
 </html>

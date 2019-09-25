@@ -2,19 +2,23 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http:/www.homeishere.ca/en/home-buyer-checklist/02-mortgage</loc>
-<lastmod>2019-09-21T16:09:29+00:00</lastmod>
+<lastmod>2019-09-25T03:49:17+00:00</lastmod>
+</url>
+<url>
+<loc>http:/www.homeishere.ca/en/home-buyer-checklist/03-testpage</loc>
+<lastmod>2019-09-25T03:49:17+00:00</lastmod>
 </url>
 <url>
 <loc>http:/www.homeishere.ca/en/home-buyer-checklist/04-commute</loc>
-<lastmod>2019-09-21T16:09:29+00:00</lastmod>
+<lastmod>2019-09-25T03:49:17+00:00</lastmod>
 </url>
 <url>
 <loc>http:/www.homeishere.ca/kr/home-buyer-checklist/02-mortgage</loc>
-<lastmod>2019-09-21T16:09:29+00:00</lastmod>
+<lastmod>2019-09-25T03:49:17+00:00</lastmod>
 </url>
 <url>
 <loc>http:/www.homeishere.ca/kr/home-buyer-checklist/04-commute</loc>
-<lastmod>2019-09-21T16:09:29+00:00</lastmod>
+<lastmod>2019-09-25T03:49:17+00:00</lastmod>
 </url>
 <url>
 <loc>http:/www.homeishere.ca/2016/05/20/my-example-post.html</loc>
@@ -61,5 +65,8 @@
 </url>
 <url>
 <loc>http:/www.homeishere.ca/en/home-buyer-checklist/</loc>
+</url>
+<url>
+<loc>http:/www.homeishere.ca/en/home-buyer-checklist/2/</loc>
 </url>
 </urlset>
