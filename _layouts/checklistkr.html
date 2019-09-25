@@ -3,4 +3,18 @@ layout: post-kr
 categories: kr
 ---
 {{ content }}
-{% include prev-next-kr.html %}
+<section id="paginator">
+  <ul class="pager">
+      <li class="next">
+         {% if page.previous.url %}
+         <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}"><i class="fa fa-chevron-left"></i> Prev: {{page.previous.title}}</a>
+         {% endif %}
+     </li>
+      {% if page.next.url and page.previous.url %}|{% endif %}
+      <li class="previous">
+         {% if page.next.url %}
+         <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next: {{page.next.title}} <i class="fa fa-chevron-right"></i></a>
+         {% endif %}
+       </li>
+    </ul>
+</section>
