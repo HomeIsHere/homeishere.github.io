@@ -1,0 +1,20 @@
+{% assign crumb = page.url | relative_url | split: "/" %}
+{% assign url='/' %}
+<section id="breadcrumb">
+    <div class="container">
+        <ul class="bread">
+            {% for cr in crumb offset:1 %}
+            {% capture url %}{{url}}{{cr}}/{% endcapture %}
+            {% if forloop.first == true %}
+            <li><a href="{{url}}">Home</a></li>
+            {% elsif forloop.last == true %}
+            <li><a href="{{url}}">{{ page.title }}</a></li>
+            {% else %}
+            {% assign titlelist = cr | split: "-" %}
+            {% capture title %}{% for t in titlelist %}{{ t | capitalize }} {% endfor %}{% endcapture %}
+            <li><a href="{{url}}">{{ title }}</a></li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+</section>

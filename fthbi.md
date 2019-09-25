@@ -1,6 +1,7 @@
 ---
 layout: fthbi
-title: FTHBI
+title: Beginner's Guide to FTHBI
+subtitle: Everything you need to know about the First Time Home Buyer Incentive
 permalink: /en/first-time-home-buyer-incentive/
 contact-tag: "We can help you get the best out of FTHBI."
 ---
