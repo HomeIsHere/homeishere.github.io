@@ -1,12 +1,12 @@
 - counter: 20000
-  icon: ion-ios-chatboxes-outline
+  icon: ion-md-chatboxes
   text: Cups of Coffee
 - counter: 1500
-  icon: ion-ios-glasses-outline
+  icon: ion-md-glasses
   text: Gallons of Soft Drink
 - counter: 1200
-  icon: ion-ios-compose-outline
+  icon: ion-md-clipboard
   text: Whiteboard Markers
 - counter: 300
-  icon: ion-ios-timer-outline
+  icon: ion-md-timer
   text: Websites built

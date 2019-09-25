@@ -78,6 +78,7 @@ header .navbar-brand {
   padding-top: 5px;
 }
 header .navbar-default {
+  cursor: pointer;
   background: none;
   border: 0px;
 }
@@ -141,7 +142,7 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #main {
   .container {
-      width: 50%;
+      width: 70%;
   }
 }
 #main .block h2 {
