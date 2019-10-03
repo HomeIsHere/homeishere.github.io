@@ -1,5 +1,5 @@
-<section id="paginator" class="container">
-  <div>
+<section id="paginator">
+  <div class="container">
     {% for post in paginator.posts %}
     <div class="item">
         <a class="title" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
@@ -7,7 +7,7 @@
     </div>
     {% endfor %}
   </div>
-  <div>
+  <div class="container">
     {% if paginator.total_pages > 1 %}
     <ul class="pager">
       {% if paginator.previous_page %}
