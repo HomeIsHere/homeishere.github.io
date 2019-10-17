@@ -16,5 +16,8 @@ table{
         tr:last-child {
             border-bottom: solid 1px gray;
         }
+        tr.border-bottom {
+            border-bottom:1pt solid black;
+        }
     }
 }
