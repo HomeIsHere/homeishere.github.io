@@ -1,6 +1,8 @@
 #paginator {
     margin-top: 30px;
     .item {
+        width: 30%;
+        display: inline-block;
         padding: 10px 0;
     }
     font-size: 13px;
