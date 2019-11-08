@@ -1,9 +1,27 @@
 #paginator {
     margin-top: 30px;
     .item {
-        width: 30%;
         display: inline-block;
+        margin: 0;
         padding: 10px 0;
+        @media #{$extrasmall} {
+            width: 100%;
+            margin: 0;
+        }
+        @media #{$small} {
+            width: 48%;
+            margin-right: 2%;
+            &:nth-child(even){
+                margin-right: 0;
+            }
+        }
+        @media #{$notsmall} {
+            width: 30%;
+            margin-right: 4.5%;
+            &:nth-child(3n+3) {
+                margin-right: 0;
+            }
+        }
     }
     font-size: 13px;
     .title {
