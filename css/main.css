@@ -3622,6 +3622,8 @@ ul, ol {
   margin-top: 30px;
   font-size: 13px; }
   #paginator .item {
+    width: 30%;
+    display: inline-block;
     padding: 10px 0; }
   #paginator .title {
     font-size: 16px; }
@@ -3718,3 +3720,9 @@ ul, ol {
 --*/
 #checklist-header {
   background: url("../img/checklist-main-resized.jpg") no-repeat; }
+
+/*--
+	fthbi
+--*/
+#fthbi-header {
+  background: url("../img/fthbi-resized.jpg") no-repeat; }
