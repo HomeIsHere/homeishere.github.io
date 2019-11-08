@@ -1,0 +1,20 @@
+{% assign crumb = page.url | relative_url | remove: "index.html" | split: "/" %}
+{% assign url='/' %}
+<section id="breadcrumb">
+    <div class="container">
+        <ul class="bread">
+            {% for cr in crumb offset:1 %}
+            {% capture url %}{{url}}{{cr}}/{% endcapture %}
+            {% if forloop.first == true %}
+            <li><a href="{{url}}">홈</a></li>
+            {% elsif forloop.last == true %}
+            <li><a href="{{url}}">{{ page.title }}</a></li>
+            {% else %}
+            {% assign title = site.data.breadcrumbkr | where: "en", cr %}
+            {{ title[1].kr }}
+            <li><a href="{{url}}">{{ title | map: "kr" }}</a></li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+</section>
