@@ -3039,7 +3039,7 @@ px      68    160    252    344    436    528    620    712    */
 ---------------------------------------------
 cols    1     2      3
 px      68    160    252    */
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 430px) and (max-width: 767px) {
   /*---------------------------------------------
 					Index Start
 -----------------------------------------------*/
@@ -3622,9 +3622,25 @@ ul, ol {
   margin-top: 30px;
   font-size: 13px; }
   #paginator .item {
-    width: 30%;
     display: inline-block;
+    margin: 0;
     padding: 10px 0; }
+    @media only screen and (max-width: 429px) {
+      #paginator .item {
+        width: 100%;
+        margin: 0; } }
+    @media only screen and (min-width: 430px) and (max-width: 767px) {
+      #paginator .item {
+        width: 48%;
+        margin-right: 2%; }
+        #paginator .item:nth-child(even) {
+          margin-right: 0; } }
+    @media only screen and (min-width: 768px) {
+      #paginator .item {
+        width: 30%;
+        margin-right: 4.5%; }
+        #paginator .item:nth-child(3n+3) {
+          margin-right: 0; } }
   #paginator .title {
     font-size: 16px; }
   #paginator ul.pager {
