@@ -26,7 +26,7 @@
 .global-header .block {
   color: #E3E3E4;
   margin: 0 auto;
-  padding-left: 90px;
+  // padding-left: 90px;
   text-align: center;
 }
 .global-header .block h1 {
@@ -48,10 +48,16 @@
 --*/
 #checklist-header {
   background: url("../img/checklist-main-resized.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 70% 100%;
 }
 /*--
 	fthbi
 --*/
 #fthbi-header {
   background: url("../img/fthbi-resized.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 30% 100%;
 }
