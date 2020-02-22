@@ -110,7 +110,7 @@ font header .navbar-default .navbar-nav li a:hover {
   background: url("../img/home-hero-banner.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-position: 10% 0%;
+  background-position: 100% 100%;
   padding: 200px 0 280px 0;
   position: relative; }
 
@@ -3722,7 +3722,6 @@ form .block {
 .global-header .block {
   color: #E3E3E4;
   margin: 0 auto;
-  padding-left: 90px;
   text-align: center; }
 
 .global-header .block h1 {
@@ -3743,10 +3742,16 @@ form .block {
 	checklist
 --*/
 #checklist-header {
-  background: url("../img/checklist-main-resized.jpg") no-repeat; }
+  background: url("../img/checklist-main-resized.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 70% 100%; }
 
 /*--
 	fthbi
 --*/
 #fthbi-header {
-  background: url("../img/fthbi-resized.jpg") no-repeat; }
+  background: url("../img/fthbi-resized.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 30% 100%; }
